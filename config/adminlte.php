@@ -270,7 +270,7 @@ return [
             'submenu' => [
                 [
                     'text' => 'Pangkat Golongan',
-                    'url'  => '#',
+                    'url'  => '/mst-pangkat',
                 ],
                 [
                     'text' => 'Jabatan Strutural',
