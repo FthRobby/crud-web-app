@@ -18,7 +18,7 @@ class MstPegawai extends Model
         'alamat' => 'required',
         'jenis_kel' => 'required',
         'agama' => 'required',
-        'mst_jabatan_id' => 'required',
+        'mst_jabatan_id' => 'required'
     ];
 
     protected $perPage = 20;
