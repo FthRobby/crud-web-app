@@ -17,7 +17,7 @@
                     <div class="card-header">
                         <div style="display: flex; justify-content: space-between; align-items: center;">
                             <span id="card_title">
-                                <h3>Tabel Master Jabatan</h3>
+                                <h3>Tabel Jabatan</h3>
                             </span>
                             <div class="float-right">
                                 @include('mst-jabatan.search', ['url'=>'mst-jabatan',
