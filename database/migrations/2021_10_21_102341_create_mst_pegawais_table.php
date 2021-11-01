@@ -20,6 +20,7 @@ class CreateMstPegawaisTable extends Migration
             $table->char('jenis_kel');
             $table->char('agama');
             $table->string('telepon');
+            $table->date('tanggal_lahir');
             $table->string('email');
             $table->string('file_foto');
             $table->integer('mst_jabatan_id')->unsigned();

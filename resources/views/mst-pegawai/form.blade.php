@@ -44,6 +44,15 @@
                 {!! $errors->first('telepon', '<div class="invalid-feedback">:message</p>') !!}
             </div>
         </div>
+
+        <div class="form-row">
+            {{ Form::label('tanggal_lahir', 'Tanggal Lahir', ['class' => 'col-sm-3 col-form-label', 'style' => 'font-weight:bold;']) }}
+            <div class="col-sm-9">
+                {{ Form::text('tanggal_lahir', $pegawai->tanggal_lahir, ['class' => 'form-control' . ($errors->has('tanggal_lahir') ? ' is-invalid' : ''), 'placeholder' => 'Tanggal Lahir']) }}
+                {!! $errors->first('tanggal_lahir', '<div class="invalid-feedback">:message</p>') !!}
+            </div>
+        </div>
+
         <div class="form-row">
             {{ Form::label('email', 'Email', ['class' => 'col-sm-3 col-form-label', 'style' => 'font-weight:bold;']) }}
             <div class="col-sm-9">

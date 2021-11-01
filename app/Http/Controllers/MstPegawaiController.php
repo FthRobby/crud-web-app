@@ -68,6 +68,7 @@ class MstPegawaiController extends Controller
                 'jenis_kel' => $request->jenis_kel,
                 'agama' => $request->agama,
                 'telepon' => $request->telepon,
+                'tanggal_lahir' => $request->tanggal_lahir,
                 'email' => $request->email,
                 'file_foto' => $fileFoto,
                 'mst_jabatan_id' => $request->mst_jabatan_id,

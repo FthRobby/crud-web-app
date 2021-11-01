@@ -17,6 +17,7 @@ class MstPegawai extends Model
         'nama' => 'required',
         'alamat' => 'required',
         'jenis_kel' => 'required',
+        'tanggal_lahir' => 'required',
         'agama' => 'required',
         'mst_jabatan_id' => 'required'
     ];
