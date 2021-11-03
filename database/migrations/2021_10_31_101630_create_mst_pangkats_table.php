@@ -15,7 +15,7 @@ class CreateMstPangkatsTable extends Migration
     {
         Schema::create('mst_pangkats', function (Blueprint $table) {
             $table->id();
-            $table->char("nama_pangkat")->nullable();
+            $table->char('nama_pangkat')->nullable();
             $table->char('pangkat_gol')->nullable();
             $table->timestamps();
         });
