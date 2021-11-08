@@ -14,7 +14,7 @@
             <div class="card-header">
                 <div style="display: flex; justify-content: space-between; align-items: center;">
                     <span id="card_title">
-                        <h3>Tabel Master Pegawai</h3>
+                        <h3>Tabel Pegawai</h3>
                     </span>
                     <div class="float-right">
                         @include('mst-pegawai.search',['url'=>'mst-pegawai','link'=> 'mst-pegawai'])
